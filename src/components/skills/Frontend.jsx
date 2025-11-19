@@ -26,7 +26,7 @@ const Frontend = () => {
                     <i className='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">HTML5</h3>
+                        <h3 className="skills__name">Angular</h3>
                     </div>
                 </div>
 
@@ -43,6 +43,22 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">Bootstrap</h3>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className='bx bx-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name">HTML5</h3>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className='bx bx-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name">Java FX</h3>
                     </div>
                 </div>
             </div>
@@ -87,6 +103,24 @@ const Frontend = () => {
                         <h3 className="skills__name">jQuary</h3>
                     </div>
                 </div>
+
+                <div className="skills__data">
+                    <i className='bx bx-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name">JSP</h3>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className='bx bx-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name">WIX</h3>
+                    </div>
+                </div>
+
+                
             </div>
         </div>
     </div>

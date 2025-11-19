@@ -46,6 +46,22 @@ const Backend = () => {
                         <h3 className="skills__name">JavaEE</h3>
                     </div>
                 </div>
+
+                <div className="skills__data">
+                    <i className='bx bx-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name">GCP</h3>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className='bx bx-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name">Prisma</h3>
+                    </div>
+                </div>
             </div>
 
             <div className="skills__group">
@@ -85,7 +101,23 @@ const Backend = () => {
                     <i className='bx bx-badge-check'></i>
 
                     <div>
+                        <h3 className="skills__name">AWS</h3>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className='bx bx-badge-check'></i>
+
+                    <div>
                         <h3 className="skills__name">MongoDB</h3>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className='bx bx-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name">SQL</h3>
                     </div>
                 </div>
             </div>
