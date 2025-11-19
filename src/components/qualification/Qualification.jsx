@@ -24,9 +24,9 @@ const Qualification = () => {
                   : "qualification__button  button--flex"
               }
               onClick={() => toggleTab(1)}
-            >
-              <i className="uil uil-graduation-cap qualification__icon"></i>{" "}
-              Education
+            >          
+              <i className="uil uil-briefcase-alt qualification__icon"></i>{" "}
+              Experience 
             </div>
 
             <div
@@ -37,8 +37,8 @@ const Qualification = () => {
               }
               onClick={() => toggleTab(2)}
             >
-              <i className="uil uil-briefcase-alt qualification__icon"></i>{" "}
-              Experience
+              <i className="uil uil-graduation-cap qualification__icon"></i>{" "}
+              Education
             </div>
           </div>
         </div>
@@ -54,6 +54,121 @@ const Qualification = () => {
                 exit={{ opacity: 0, y: 50 }}
                 transition={{ duration: 0.5 }}
               >
+                
+                <div className="qualification__data">
+                  <div>
+                    <h3 className="qualification__title">
+                      Associate Software Engineer
+                    </h3>
+                    <span className="qualification__subtitle">
+                      Bio Foods (PVT) Ltd
+                    </span>
+                    <div className="qualification__calender">
+                      <i className="uil uil-calender-alt"></i> Since 2025 Nov
+                    </div>
+                  </div>
+                  <div>
+                    <span className="qualification__rounder"></span>
+                    <span className="qualification__line"></span>
+                  </div>
+                </div>               
+
+                <div className="qualification__data">
+                  <div></div>
+                  <div>
+                    <span className="qualification__rounder"></span>
+                    <span className="qualification__line"></span>
+                  </div>
+                  <div>
+                    <h3 className="qualification__title">Intern Software Engineer</h3>
+                    <span className="qualification__subtitle">
+                      Bio Foods (PVT) Ltd
+                    </span>
+                    <div className="qualification__calender">
+                      <i className="uil uil-calender-alt"></i> 2025 May - Oct
+                    </div>
+                  </div>
+                </div>               
+
+                <div className="qualification__data">
+                  <div>
+                    <h3 className="qualification__title">Web Designer</h3>
+                    <span className="qualification__subtitle">
+                      Academic Experience{" "}
+                    </span>
+                    <div className="qualification__calender">
+                      <i className="uil uil-calender-alt"></i> 2023 - 2025
+                    </div>
+                  </div>
+                  <div>
+                    <span className="qualification__rounder"></span>
+                    <span className="qualification__line"></span>
+                  </div>
+                </div>
+
+                <div className="qualification__data">
+                  <div></div>
+                  <div>
+                    <span className="qualification__rounder"></span>
+                    <span className="qualification__line"></span>
+                  </div>
+                  <div>
+                    <h3 className="qualification__title">Ui Designer</h3>
+                    <span className="qualification__subtitle">
+                      Academic Experience
+                    </span>
+                    <div className="qualification__calender">
+                      <i className="uil uil-calender-alt"></i> 2023 - 2025
+                    </div>
+                  </div>
+                </div>
+
+                <div className="qualification__data">
+                  <div>
+                    <h3 className="qualification__title">
+                      Application Development
+                    </h3>
+                    <span className="qualification__subtitle">
+                      Academic Experience
+                    </span>
+                    <div className="qualification__calender">
+                      <i className="uil uil-calender-alt"></i> 2023 - 2025
+                    </div>
+                  </div>
+                  <div>
+                    <span className="qualification__rounder"></span>
+                    <span className="qualification__line"></span>
+                  </div>
+                </div>
+
+                <div className="qualification__data">
+                  <div></div>
+                  <div>
+                    <span className="qualification__rounder"></span>
+                    <span className="qualification__line"></span>
+                  </div>
+                  <div>
+                    <h3 className="qualification__title">Photography</h3>
+                    <span className="qualification__subtitle">
+                      Studio Vivid EYE
+                    </span>
+                    <div className="qualification__calender">
+                      <i className="uil uil-calender-alt"></i> since 2021
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            )}
+
+            {toggleState === 2 && (
+              <motion.div
+                key="experience"
+                className="qualification__content qualification__content-active"
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -50 }}
+                transition={{ duration: 0.5 }}
+              >
                 <div className="qualification__data">
                   <div>
                     <h3 className="qualification__title">
@@ -63,7 +178,7 @@ const Qualification = () => {
                       University of Bedfordshire
                     </span>
                     <div className="qualification__calender">
-                      <i className="uil uil-calender-alt"></i> 2025 - Present
+                      <i className="uil uil-calender-alt"></i> 2026 - Present
                     </div>
                   </div>
                   <div>
@@ -80,7 +195,7 @@ const Qualification = () => {
                   </div>
                   <div>
                     <h3 className="qualification__title">
-                      Higher National Diploma
+                      Higher Diploma in Software Engineering
                     </h3>
                     <span className="qualification__subtitle">
                       Institute Of Software Engineering
@@ -123,85 +238,7 @@ const Qualification = () => {
                     </div>
                   </div>
                 </div>
-              </motion.div>
-            )}
-
-            {toggleState === 2 && (
-              <motion.div
-                key="experience"
-                className="qualification__content qualification__content-active"
-                initial={{ opacity: 0, y: 50 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -50 }}
-                transition={{ duration: 0.5 }}
-              >
-                <div className="qualification__data">
-                  <div>
-                    <h3 className="qualification__title">
-                      Application Development
-                    </h3>
-                    <span className="qualification__subtitle">
-                      Academic Experience
-                    </span>
-                    <div className="qualification__calender">
-                      <i className="uil uil-calender-alt"></i> 2023 - 2025
-                    </div>
-                  </div>
-                  <div>
-                    <span className="qualification__rounder"></span>
-                    <span className="qualification__line"></span>
-                  </div>
-                </div>
-
-                <div className="qualification__data">
-                  <div></div>
-                  <div>
-                    <span className="qualification__rounder"></span>
-                    <span className="qualification__line"></span>
-                  </div>
-                  <div>
-                    <h3 className="qualification__title">Ui Designer</h3>
-                    <span className="qualification__subtitle">
-                      Academic Experience
-                    </span>
-                    <div className="qualification__calender">
-                      <i className="uil uil-calender-alt"></i> 2023 - 2025
-                    </div>
-                  </div>
-                </div>
-
-                <div className="qualification__data">
-                  <div>
-                    <h3 className="qualification__title">Web Designer</h3>
-                    <span className="qualification__subtitle">
-                      Academic Experience{" "}
-                    </span>
-                    <div className="qualification__calender">
-                      <i className="uil uil-calender-alt"></i> 2023 - 2025
-                    </div>
-                  </div>
-                  <div>
-                    <span className="qualification__rounder"></span>
-                    <span className="qualification__line"></span>
-                  </div>
-                </div>
-
-                <div className="qualification__data">
-                  <div></div>
-                  <div>
-                    <span className="qualification__rounder"></span>
-                    <span className="qualification__line"></span>
-                  </div>
-                  <div>
-                    <h3 className="qualification__title">Photography</h3>
-                    <span className="qualification__subtitle">
-                      Studio Vivid EYE
-                    </span>
-                    <div className="qualification__calender">
-                      <i className="uil uil-calender-alt"></i> since 2021
-                    </div>
-                  </div>
-                </div>
+                
               </motion.div>
             )}
           </AnimatePresence>

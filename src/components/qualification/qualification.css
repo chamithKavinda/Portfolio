@@ -1,3 +1,8 @@
+#about{
+    background-color: #f6f6f6;
+    min-height: 950px; 
+}
+
 .qualification__container {
     max-width: 768px;
 }
@@ -11,7 +16,7 @@
 .qualification__button {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
-    color: var(--title-color);
+    color: #bababa;
     margin: 0 var(--mb-1);
     cursor: pointer;
 }
