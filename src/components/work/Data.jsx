@@ -10,31 +10,47 @@ import YumYard from "../../assets/yum yard.jpg";
 import RoyalOasis from "../../assets/royal oasis.jpg";
 import CeylonView from "../../assets/ceylon view.jpg";
 import WordCounter from "../../assets/word counter.jpg";
+import DineNow from "../../assets/dineNow.png";
+import SessionPro from "../../assets/SessionPro.png";
 
 export const projectsData = [
     {
         id: 1,
+        image: DineNow,
+        title: 'Dine Now - Food Delivery site',
+        category: 'web',
+        link: 'https://github.com/chamithKavinda/DineNow-Food-Delivery-App-MERN-Stack',
+    },
+    {
+        id: 2,
+        image: SessionPro,
+        title: 'Session PRO - Session Management System',
+        category: 'web',
+        link: 'https://github.com/chamithKavinda/SessionPRO-Frontend',
+    },
+    {
+        id: 3,
         image: YumYard,
         title: 'Yum Yard - Recipe site',
         category: 'web',
         link: 'https://github.com/chamithKavinda/Yum-Yard',
     },
     {
-        id: 2,
+        id: 4,
         image: RoyalOasis,
         title: 'Royal Oasis Resort - Hotel site ',
         category: 'web',
         link: 'https://github.com/chamithKavinda/Royal-Oasis-Resort',
     },
     {
-        id: 3,
+        id: 5,
         image: CeylonView,
         title: 'Ceylon View - Travel site ',
         category: 'web',
         link: 'https://github.com/chamithKavinda/Ceylon-View',
     },
     {
-        id: 4,
+        id: 6,
         image: WordCounter,
         title: 'Word Counter',
         category: 'web',
@@ -48,28 +64,28 @@ export const projectsData = [
         link:'https://github.com/chamithKavinda/Coffee-Shop-POS-JavaEE-Backend',
     },
     {
-        id: 5,
+        id: 8,
         image: CropMonitoring,
         title: 'Crop Monitoring POS System',
         category: 'app',
         link: 'https://github.com/chamithKavinda/Crop-Monitoring-System-Backend',
     },
     {
-        id: 8,
+        id: 9,
         image: BookWorm,
         title: 'Library Management System',
         category: 'app',
         link: 'https://github.com/chamithKavinda/Library_Management_System',
     },
     {
-        id: 9,
+        id: 10,
         image: ChatApp,
         title: 'Chit Chat - Chat Application',
         category: 'app',
         link: 'https://github.com/chamithKavinda/Chit-Chat',
     },
     {
-        id: 10,
+        id: 11,
         image: foodDelivery,
         title: 'Food Delivery App',
         category: 'designs',
@@ -83,14 +99,14 @@ export const projectsData = [
         link: 'https://www.figma.com/design/R9xCJR0RO7rdhneC9xhn9e/100-UI-Challenge?node-id=21-69&t=FM5ZNpdc0mVUY5Fn-0',
     },
     {
-        id: 11,
+        id: 13,
         image: AirBooking,
         title: 'Air Bookin App',
         category: 'designs',
         link: 'https://www.figma.com/design/Mijb1EJsBOR5oYeWUzObKk/Air-Booking?node-id=2-46&p=f&t=tdWz6e1hGk7hjY3U-0',
     },
     {
-        id: 13,
+        id: 14,
         image: SocialMediaAcc,
         title: 'Social Media Account',
         category: 'designs',

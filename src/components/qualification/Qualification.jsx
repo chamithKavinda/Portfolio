@@ -12,8 +12,8 @@ const Qualification = () => {
   return (
     <div>
       <section className="qualification section" id="about">
-        <h2 className="section__title">About</h2>
-        <span className="section__subtitle">My personal journey</span>
+        <h2 className="section__title">Journey</h2>
+        <span className="section__subtitle">Professional milestones</span>
 
         <div className="qualification__container container">
           <div className="qualification__tabs">
@@ -85,19 +85,19 @@ const Qualification = () => {
                       Bio Foods (PVT) Ltd
                     </span>
                     <div className="qualification__calender">
-                      <i className="uil uil-calender-alt"></i> 2025 May - Oct
+                      <i className="uil uil-calender-alt"></i> 2025 May - Oct 
                     </div>
                   </div>
                 </div>               
 
                 <div className="qualification__data">
                   <div>
-                    <h3 className="qualification__title">Web Designer</h3>
+                    <h3 className="qualification__title">Intern Project Manager</h3>
                     <span className="qualification__subtitle">
-                      Academic Experience{" "}
+                      Uvexzon (PVT) Ltd{" "}
                     </span>
                     <div className="qualification__calender">
-                      <i className="uil uil-calender-alt"></i> 2023 - 2025
+                      <i className="uil uil-calender-alt"></i> 2025 Apr - May
                     </div>
                   </div>
                   <div>
@@ -113,12 +113,12 @@ const Qualification = () => {
                     <span className="qualification__line"></span>
                   </div>
                   <div>
-                    <h3 className="qualification__title">Ui Designer</h3>
+                    <h3 className="qualification__title">Photographer</h3>
                     <span className="qualification__subtitle">
-                      Academic Experience
+                      Studio Vivid EYE
                     </span>
                     <div className="qualification__calender">
-                      <i className="uil uil-calender-alt"></i> 2023 - 2025
+                      <i className="uil uil-calender-alt"></i> since 2021
                     </div>
                   </div>
                 </div>
@@ -126,13 +126,13 @@ const Qualification = () => {
                 <div className="qualification__data">
                   <div>
                     <h3 className="qualification__title">
-                      Application Development
+                      Content Creator 
                     </h3>
                     <span className="qualification__subtitle">
-                      Academic Experience
+                      Studio Vivid EYE
                     </span>
                     <div className="qualification__calender">
-                      <i className="uil uil-calender-alt"></i> 2023 - 2025
+                      <i className="uil uil-calender-alt"></i> since 2021
                     </div>
                   </div>
                   <div>
@@ -148,13 +148,31 @@ const Qualification = () => {
                     <span className="qualification__line"></span>
                   </div>
                   <div>
-                    <h3 className="qualification__title">Photography</h3>
+                    <h3 className="qualification__title">Announcer</h3>
                     <span className="qualification__subtitle">
-                      Studio Vivid EYE
+                      G Events (PVT) Ltd
                     </span>
                     <div className="qualification__calender">
                       <i className="uil uil-calender-alt"></i> since 2021
                     </div>
+                  </div>
+                </div>
+
+                <div className="qualification__data">
+                  <div>
+                    <h3 className="qualification__title">
+                      Cricket Umpire
+                    </h3>
+                    <span className="qualification__subtitle">
+                      G Events (PVT) Ltd
+                    </span>
+                    <div className="qualification__calender">
+                      <i className="uil uil-calender-alt"></i> since 2021
+                    </div>
+                  </div>
+                  <div>
+                    <span className="qualification__rounder"></span>
+                    <span className="qualification__line"></span>
                   </div>
                 </div>
               </motion.div>
@@ -172,10 +190,10 @@ const Qualification = () => {
                 <div className="qualification__data">
                   <div>
                     <h3 className="qualification__title">
-                      BSc (Hons) Computer Science
+                      BSc (Hons) in Computing (TOP UP)
                     </h3>
                     <span className="qualification__subtitle">
-                      University of Bedfordshire
+                      London Metropolitan University (UK)
                     </span>
                     <div className="qualification__calender">
                       <i className="uil uil-calender-alt"></i> 2026 - Present
@@ -229,13 +247,29 @@ const Qualification = () => {
                     <span className="qualification__line"></span>
                   </div>
                   <div>
+                    <h3 className="qualification__title">English Diploma</h3>
+                    <span className="qualification__subtitle">
+                      Britishway English Academy
+                    </span>
+                    <div className="qualification__calender">
+                      <i className="uil uil-calender-alt"></i> 2017 - 2018
+                    </div>
+                  </div>
+                </div>
+
+                <div className="qualification__data">
+                  <div>
                     <h3 className="qualification__title">High School</h3>
                     <span className="qualification__subtitle">
-                      All Saints' College
+                      All Saints'College
                     </span>
                     <div className="qualification__calender">
                       <i className="uil uil-calender-alt"></i> 2007 - 2020
                     </div>
+                  </div>
+                  <div>
+                    <span className="qualification__rounder"></span>
+                    <span className="qualification__line"></span>
                   </div>
                 </div>
                 

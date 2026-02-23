@@ -39,7 +39,7 @@ const Services = () => {
       id="services"
       ref={sectionRef}
     >
-      <h2 className="section__title">Services</h2>
+      <h2 className="section__title">Solutions</h2>
       <span className="section__subtitle">What I offer</span>
 
       <div className="services__container container grid">

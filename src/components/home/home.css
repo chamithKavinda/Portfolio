@@ -11,37 +11,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.home__img {
-    background: url(/src/assets/homeImage2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
-    width: 300px;
-    height: 300px;
-    margin-bottom: 2rem;
-    border-radius: 50%;
+    position: relative;
 }
 
 .home__data {
     text-align: center;
-}
-
-.home__container {
-    display: grid;
-    grid-gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    padding-top: 3.5rem;
-}
-
-.home__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .verify-icon {
@@ -54,10 +28,6 @@
     margin-top: -2px;
     vertical-align: middle; 
 }  
-  
-.home__data {
-    text-align: center;
-}
 
 .home__social {
     display: grid;
@@ -126,6 +96,7 @@
     margin-bottom: var(--mb-3);
     margin-top: -8px;
     margin-left: 15px;
+    white-space: pre-line;
 }
 
 @media screen and (max-width: 992px){
@@ -230,4 +201,222 @@
         text-align: center; 
         margin-top: var(--mb-1); 
     }
+
+    .carousel__arrow {
+        width: 30px;
+        height: 30px;
+    }
+
+    .carousel__arrow i {
+        font-size: 1rem;
+    }
+
+    .carousel__arrow--left {
+        left: 5px;
+    }
+
+    .carousel__arrow--right {
+        right: 5px;
+    }
 }
+
+.home__container {
+    padding-top: 5rem;
+}
+
+/* Main wrapper to hold everything in place */
+.carousel__main-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 550px;
+}
+
+/* The area where cards stack */
+.carousel__stack {
+    position: relative;
+    width: 300px; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.carousel__card {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    pointer-events: none; 
+}
+
+/* Enable clicks for the center card */
+.carousel__card[style*="z-index: 5"] {
+    pointer-events: auto;
+}
+
+/* Data Content Container */
+.carousel__data-content {
+    width: 500px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.home__description {
+    white-space: pre-line;
+    margin-top: 1rem;
+    font-size: var(--small-font-size);
+}
+
+
+/* Responsive Adjustments */
+@media screen and (max-width: 992px) {
+    .carousel__data-content { width: 400px; }
+    .carousel__arrow--left { left: 0; }
+    .carousel__arrow--right { right: 0; }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel__stack { width: 250px; height: 250px; }
+    .home__img { width: 250px; height: 250px; }
+    .carousel__data-content { width: 300px; }
+    .carousel__main-wrapper { min-height: 650px; }
+    .carousel__arrow { top: 125px; }
+}
+
+.carousel__viewport {
+    position: relative;
+    width: 100%;
+    max-width: 1100px; 
+    margin: 0 auto;
+    height: 650px;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 2rem;
+    overflow: visible; 
+}
+
+.carousel__track {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel__item {
+    position: absolute;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    pointer-events: none;
+}
+
+.carousel__item[style*="z-index: 10"] {
+    pointer-events: auto;
+}
+
+.home__img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.home__img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.2);
+    pointer-events: none;
+}
+
+.carousel__data-box {
+    width: 700px;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+/* Responsive Data Adjustments */
+@media screen and (max-width: 992px) {
+    .carousel__data-box { width: 550px; }
+    .carousel__viewport { max-width: 900px; }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel__viewport { height: 750px; }
+    .carousel__data-box { width: 90vw; }
+    .home__img { width: 220px; height: 220px; }
+    
+    /* Bring side cards closer on mobile */
+    .carousel__item[style*="x: -220px"] { transform: translateX(-100px) scale(0.6) !important; }
+    .carousel__item[style*="x: 220px"] { transform: translateX(100px) scale(0.6) !important; }
+}
+
+/* Navigation Buttons */
+.nav-btn {
+    position: absolute;
+    top: 130px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    margin-top: 150px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    cursor: pointer;
+    z-index: 20;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.nav-btn:hover {
+    background: var(--title-color);
+    color: white;
+    transform: scale(1.1);
+}
+
+.nav-btn.left { left: -350px; }
+.nav-btn.right { right: -350px; }
+
+/* Dot spacing */
+.carousel__dots {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.dot {
+    height: 12px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: #d1d1d1;
+    transition: background 0.3s ease;
+}
+
+.dot:hover {
+    transform: scale(1.1);
+}
+

@@ -35,32 +35,32 @@ const Header = () => {
                     <ul className="nav__list grid">
                         <li className="nav__item">
                             <a href="#home" className={`nav__link ${activeSection === 'home' ? 'active' : ''}`} onClick={() => handleClick('home')}>
-                                <i className="uil uil-estate nav__icon"></i> Home
+                                <i className="uil uil-estate nav__icon"></i> Overview
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#about" className={`nav__link ${activeSection === 'about' ? 'active' : ''}`} onClick={() => handleClick('about')}>
-                                <i className="uil uil-file-alt nav__icon"></i> About
+                                <i className="uil uil-file-alt nav__icon"></i> Journey
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#skills" className={`nav__link ${activeSection === 'skills' ? 'active' : ''}`} onClick={() => handleClick('skills')}>
-                                <i className="uil uil-file-alt nav__icon"></i> Skills
+                                <i className="uil uil-file-alt nav__icon"></i> Expertise
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#services" className={`nav__link ${activeSection === 'services' ? 'active' : ''}`} onClick={() => handleClick('services')}>
-                                <i className="uil uil-briefcase-alt nav__icon"></i> Services
+                                <i className="uil uil-briefcase-alt nav__icon"></i> Solutions
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#portfolio" className={`nav__link ${activeSection === 'portfolio' ? 'active' : ''}`} onClick={() => handleClick('portfolio')}>
-                                <i className="uil uil-scenery nav__icon"></i> Projects
+                                <i className="uil uil-scenery nav__icon"></i> Creations
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#contact" className={`nav__link ${activeSection === 'contact' ? 'active' : ''}`} onClick={() => handleClick('contact')}>
-                                <i className="uil uil-message nav__icon"></i> Contact
+                                <i className="uil uil-message nav__icon"></i> Collaborate
                             </a>
                         </li>
                     </ul>
