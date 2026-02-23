@@ -59,7 +59,7 @@ const Social = () => {
 
       <div className="group relative">
         <a
-          href="https://dribbble.com/ChamithKavinda"
+          href="https://x.com/ChamithKavinda_"
           target="_blank"
           rel="noopener noreferrer"
           className="home__social-icon"
@@ -85,7 +85,7 @@ const Social = () => {
 
       <div className="group relative">
         <a
-          href=""
+          href="https://www.facebook.com/share/1DS2srG7W4/"
           target="_blank"
           rel="noopener noreferrer"
           className="home__social-icon"
@@ -98,7 +98,7 @@ const Social = () => {
 
       <div className="group relative">
         <a
-          href="https://www.tiktok.com/@your-username"
+          href="https://www.tiktok.com/@_chamith_kavinda_13_?_r=1&_t=ZS-94AHFAI0pbb"
           target="_blank"
           rel="noopener noreferrer"
           className="home__social-icon flex items-center justify-center"

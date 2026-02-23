@@ -1,5 +1,6 @@
-import React from 'react';
+import 'react';
 
+// eslint-disable-next-line react/prop-types
 const Data = ({ title, name, description }) => {
   return (
     <div className="home__data">

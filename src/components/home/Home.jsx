@@ -70,9 +70,6 @@ const Home = () => {
   const opacity = scrollY < 300 ? 1 - scrollY / 300 : 0; 
   const scale = scrollY < 100 ? 1 - scrollY / 1000 : 0.7; 
 
-  const handleDotClick = (index) => {
-    setCurrentProfile(index);
-  };
 
   return (
     <section className="home section" id="home">

@@ -402,9 +402,9 @@
 /* Dot spacing */
 .carousel__dots {
     display: flex;
-    gap: 8px;
+    gap: 6px;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .dot {
