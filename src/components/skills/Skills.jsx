@@ -15,7 +15,7 @@ const Skills = () => {
     { id: 0, title: "As a Full Stack Developer" },
     { id: 1, title: "As a Photographer" },
     { id: 2, title: "As a Content Creator" },
-    { id: 3, title: "As a Announcer" },
+    { id: 3, title: "As an Announcer" },
     { id: 4, title: "As a Cricket Umpire" },
   ];
 
@@ -51,7 +51,7 @@ const Skills = () => {
 
   return (
     <section className="skills section" id="skills">
-      <h2 className="section__title">My Roles</h2>
+      <h2 className="section__title">Expertise</h2>
       <span className="section__subtitle">
         {roles[currentRole].title}
       </span>

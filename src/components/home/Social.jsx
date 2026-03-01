@@ -14,8 +14,6 @@ const Social = () => {
     }
   };
 
-  console.log('Hello')
-
   return (
     <div className="home__social">
       <div className="group relative">
