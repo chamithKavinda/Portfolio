@@ -2,18 +2,40 @@ import foodDelivery from "../../assets/food dilevery.jpg";
 import AirBooking from "../../assets/air booking.jpg";
 import AirLanding from "../../assets/air Landing.jpg";
 import SocialMediaAcc from "../../assets/social media account.jpg";
-import BookWorm from "../../assets/book worm.jpg";
-import ChatApp from "../../assets/chat application.jpg";
-import CoffeeShop from "../../assets/coffe shop.jpg";
-import CropMonitoring from "../../assets/crop monitoring.jpg";
-import YumYard from "../../assets/yum yard.jpg";
-import RoyalOasis from "../../assets/royal oasis.jpg";
-import CeylonView from "../../assets/ceylon view.jpg";
-import WordCounter from "../../assets/word counter.jpg";
-import DineNow from "../../assets/dineNow.png";
-import SessionPro from "../../assets/SessionPro.png";
+import BookWorm from "../../assets/library.png";
+import ChatApp from "../../assets/chat.png";
+import CoffeeShop from "../../assets/coffee.png";
+import CropMonitoring from "../../assets/green.png";
+import YumYard from "../../assets/yumyard.png";
+import RoyalOasis from "../../assets/royalOasis.png";
+import CeylonView from "../../assets/ceylon.png";
+import WordCounter from "../../assets/word.png";
+import DineNow from "../../assets/dineNow2.png";
+import SessionPro from "../../assets/sessionPro2.png";
+import MandaramRa from "../../assets/mandaramRa.jpeg";
+import IIT from "../../assets/iit.jpeg";
+import GalleOnFire from "../../assets/galleOnFire.jpeg";
+import galle from "../../assets/galle.jpeg";
+import CPL from "../../assets/cpl.jpeg";
+import early from "../../assets/early.jpeg";
+import rayel from "../../assets/raye.jpeg";
+import tenushi from "../../assets/tenushi.jpeg";
+import nilupul from "../../assets/nilupul.jpeg";
+import sandali from "../../assets/sandali.jpeg";
+import dalawella from "../../assets/dalawella.jpg";
+import music from "../../assets/music.jpeg";
+import gallefort from "../../assets/galle.jpg";
+import oth from "../../assets/oth.png";
+import a1 from "../../assets/a1.jpeg";
+import a2 from "../../assets/a2.jpeg";
+import a3 from "../../assets/a3.jpeg";
+import a4 from "../../assets/a4.jpeg";
+import u1 from "../../assets/u1.jpeg";
+import u2 from "../../assets/u2.jpeg";
+import u3 from "../../assets/u3.jpeg";
+import u4 from "../../assets/u4.jpeg";
 
-export const projectsData = [
+export const devProjectsData = [
     {
         id: 1,
         image: DineNow,
@@ -38,14 +60,14 @@ export const projectsData = [
     {
         id: 4,
         image: RoyalOasis,
-        title: 'Royal Oasis Resort - Hotel site ',
+        title: 'Royal Oasis Resort - Hotel site',
         category: 'web',
         link: 'https://github.com/chamithKavinda/Royal-Oasis-Resort',
     },
     {
         id: 5,
         image: CeylonView,
-        title: 'Ceylon View - Travel site ',
+        title: 'Ceylon View - Travel site',
         category: 'web',
         link: 'https://github.com/chamithKavinda/Ceylon-View',
     },
@@ -61,12 +83,12 @@ export const projectsData = [
         image: CoffeeShop,
         title: 'Coffee Shop POS System',
         category: 'app',
-        link:'https://github.com/chamithKavinda/Coffee-Shop-POS-JavaEE-Backend',
+        link: 'https://github.com/chamithKavinda/Coffee-Shop-POS-JavaEE-Backend',
     },
     {
         id: 8,
         image: CropMonitoring,
-        title: 'Crop Monitoring POS System',
+        title: 'Crop Monitoring System',
         category: 'app',
         link: 'https://github.com/chamithKavinda/Crop-Monitoring-System-Backend',
     },
@@ -101,7 +123,7 @@ export const projectsData = [
     {
         id: 13,
         image: AirBooking,
-        title: 'Air Bookin App',
+        title: 'Air Booking App',
         category: 'designs',
         link: 'https://www.figma.com/design/Mijb1EJsBOR5oYeWUzObKk/Air-Booking?node-id=2-46&p=f&t=tdWz6e1hGk7hjY3U-0',
     },
@@ -114,15 +136,198 @@ export const projectsData = [
     },
 ];
 
-export const projectsNav = [
-    
+export const devProjectsNav = [
+    { name: 'web' },
+    { name: 'app' },
+    { name: 'designs' },
+];
+
+// ─── Photographer Projects ────────────────────────────────────────────────────
+
+export const photographerProjectsData = [
     {
-        name: 'web',
+        id: 1,
+        image: MandaramRa, 
+        title: 'Mandaram Ra Live In Concert - 2026',
+        category: 'events',
+        link: 'https://www.facebook.com/share/p/1FryBHePdz/',
     },
     {
-        name: 'app',
+        id: 2,
+        image: IIT, 
+        title: 'IIT New Year Festival - 2025',
+        category: 'events',
+        link: 'https://www.facebook.com/share/p/1DvxmgkocX/',
     },
     {
-        name: 'designs',
+        id: 3,
+        image: GalleOnFire,
+        title: 'Galle On Fire Chapter 2',
+        category: 'events',
+        link: 'https://www.facebook.com/share/p/1H4Wg72iyd/',
     },
-]
+    {
+        id: 4,
+        image: CPL, 
+        title: 'KDU - Computing Premier League 2024',
+        category: 'events',
+        link: 'https://www.facebook.com/share/p/1BHyy4Yy4k/',
+    },
+    {
+        id: 5,
+        image: galle, 
+        title: 'Galle On Fire - 2024',
+        category: 'events',
+        link: 'https://www.facebook.com/share/p/1DXcYaLkWp/',
+    },
+    {
+        id: 6,
+        image: early, 
+        title: 'Tunes & Toes 2023',
+        category: 'events',
+        link: 'https://www.facebook.com/share/p/17zWopWCQ8/',
+    },
+    {
+        id: 7,
+        image: sandali,
+        title: 'Sandali Bridal Shoot',
+        category: 'portraits',
+        link: 'https://www.facebook.com/share/p/17C7DnF9DB/',
+    },
+    {
+        id: 8,
+        image: nilupul, 
+        title: 'Hansani & Nilupul Engagement',
+        category: 'portraits',
+        link: 'https://www.facebook.com/share/p/1E8FH9zJ8z/',
+    },
+    {
+        id: 9,
+        image: rayel, 
+        title: 'Rayel First Milestone',
+        category: 'portraits',
+        link: 'https://www.facebook.com/share/p/1Dmf9myhKN/',
+    },
+    {
+        id: 10,
+        image: tenushi, 
+        title: 'Tenushi',
+        category: 'portraits',
+        link: 'https://www.facebook.com/share/p/17umEtkCbY/',
+    },
+];
+
+export const photographerProjectsNav = [
+    { name: 'events' },
+    { name: 'portraits' },
+];
+
+// ─── Content Creator Projects ─────────────────────────────────────────────────
+
+export const contentProjectsData = [
+    {
+        id: 1,
+        image: music, 
+        title: 'Mandaram Ra Concert Aftermovie',
+        category: 'youtube',
+        link: 'https://www.facebook.com/share/r/1D9vthe5JC/',
+    },
+    {
+        id: 2,
+        image: dalawella, 
+        title: 'Unawatuna Beach Vlog',
+        category: 'youtube',
+        link: 'https://www.facebook.com/share/r/1GPGaYA8jh/',
+    },
+    {
+        id: 3,
+        image: gallefort, 
+        title: 'Galle Fort Trailer',
+        category: 'youtube',
+        link: 'https://www.facebook.com/share/r/1CwRNvqMup/',
+    },
+    {
+        id: 4,
+        image: oth, 
+        title: 'Prefects Investiture Aftermovie',
+        category: 'youtube',
+        link: 'https://www.facebook.com/share/v/16zsBKjkbU/',
+    },
+];
+
+export const contentProjectsNav = [
+    { name: 'reels' },
+];
+
+// ─── Announcer Projects ───────────────────────────────────────────────────────
+
+export const announcerProjectsData = [
+    {
+        id: 1,
+        image: a1, 
+        title: 'IJSE - Frozen Blizz',
+        category: 'sports',
+        link: '#',
+    },
+    {
+        id: 2,
+        image: a2,
+        title: 'Gym Fitness Center Cricket Tournament',
+        category: 'sports',
+        link: '#',
+    },
+    {
+        id: 3,
+        image: a3,
+        title: 'IJSE - Kowul Wasanthaya',
+        category: 'sports',
+        link: '#',
+    },
+    {
+        id: 4,
+        image: a4,
+        title: 'ICBT - Annual Cricket Clash',
+        category: 'sports',
+        link: '#',
+    },
+];
+
+export const announcerProjectsNav = [
+    { name: 'events' },
+];
+
+// ─── Cricket Umpire Projects ──────────────────────────────────────────────────
+export const umpireProjectsData = [
+    {
+        id: 1,
+        image: u1,
+        title: 'Pre Engineering Cricket Tournament',
+        category: 'matches',
+        link: '#',
+    },
+    {
+        id: 2,
+        image: u2,
+        title: 'Richmond Live Family League',
+        category: 'matches',
+        link: '#',
+    },
+    {
+        id: 3,
+        image: u3, 
+        title: 'Cricket Clash of ICT with Nuwan C - 2024',
+        category: 'matches',
+        link: '#',
+    },
+    {
+        id: 4,
+        image: u4,
+        title: '21 Engineering vs Medicine Cricket Clash',
+        category: 'matches',
+        link: '#',
+    },
+];
+
+export const umpireProjectsNav = [
+    { name: 'matches' },
+];

@@ -12,14 +12,16 @@ const WorkItems = ({ item }) => {
     >
       <img src={item.image} alt={item.title} className="work__img" />
       <h3 className="work__title">{item.title}</h3>
-      <a 
-        href={item.link} 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        className="work__button"
-      >
-        See More <i className="uil uil-arrow-right work__button-icon"> </i>
-      </a>
+      {item.link !== '#' && (
+        <a 
+          href={item.link} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="work__button"
+        >
+          See More <i className="uil uil-arrow-right work__button-icon"> </i>
+        </a>
+      )}
     </motion.div>
   );
 };

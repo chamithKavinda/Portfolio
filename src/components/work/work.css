@@ -1,3 +1,5 @@
+/* ── Filters ─────────────────────────────────────────────────────────────── */
+
 .work__filters {
     display: flex;
     justify-content: center;
@@ -19,6 +21,13 @@
     background-color: var(--title-color);
     color: var(--container-color);
 }
+
+.active-work {
+    background-color: var(--title-color);
+    color: var(--container-color);
+}
+
+/* ── Cards Grid ──────────────────────────────────────────────────────────── */
 
 .work__container {
     grid-template-columns: repeat(2, max-content);
@@ -62,14 +71,84 @@
     transform: translateX(0.25rem);
 }
 
-/* active work */
-.active-work {
-    background-color: var(--title-color);
-    color: var(--container-color);
+.work__role-subtitle {
+    display: block;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
-/* breakpoints */
-@media screen and (max-width: 992px){
+.work__carousel {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.work__carousel-content {
+    width: 100%;
+}
+
+
+.work .roles__nav,
+.work__carousel ~ .roles__dots,
+.work__carousel + .roles__dots {
+    /* inherits from global if shared, otherwise defined below */
+}
+
+.roles__nav {
+    position: absolute;
+    top: 60px;
+    transform: translateY(0);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 10;
+}
+
+.roles__nav:hover {
+    background: var(--title-color);
+    color: white;
+    transform: scale(1.1);
+}
+
+.roles__nav.left  { left:  30px; }
+.roles__nav.right { right: 30px; }
+
+.roles__dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 2rem;
+}
+
+.roles__dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    border: none;
+    background: #d1d1d1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.roles__dot.active {
+    width: 36px;
+    background: var(--title-color);
+}
+
+.roles__dot:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 992px) {
     .work__container {
         gap: 1.25rem;
     }
@@ -85,15 +164,27 @@
     .work__title {
         margin-bottom: 0.25rem;
     }
+
+    .roles__nav.left  { left:  -40px; }
+    .roles__nav.right { right: -40px; }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .work__container {
         grid-template-columns: max-content;
     }
+
+    .roles__nav {
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+
+    .roles__nav.left  { left:  -20px; }
+    .roles__nav.right { right: -20px; }
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
     .work__container {
         grid-template-columns: 1fr;
     }
@@ -103,14 +194,12 @@
     }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 350px) {
     .work__item {
         font-size: var(--small-font-size);
     }
 
     .work__filters {
-        column-gap: 00.25rem;
+        column-gap: 0.25rem;
     }
 }
-
-
