@@ -3,6 +3,12 @@ import "./home.css";
 import Social from './Social';
 import Data from './Data';
 import { motion } from 'framer-motion';
+import homeImage from "../../assets/homeImage2.jpg";
+import photographer from "../../assets/photographer.jpg";
+import announcer from "../../assets/announcer2.jpg";
+import contentCreator from "../../assets/contentCreator.jpg";
+import umpire from "../../assets/umpire.jpg";
+
 
 const Home = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -11,35 +17,35 @@ const Home = () => {
   const profiles = [
     {
       id: 0,
-      image: '/src/assets/homeImage2.jpg', 
+      image: homeImage, 
       title: 'Full Stack Developer',
       name: 'Chamith Kavinda',
       description: 'Transforming lines of code into lifetime experiences . . . \n\nAssociate Software Engineer with a strong foundation in full-stack development, currently contributing to ERP systems and enterprise-level web solutions at Bio Foods Pvt Ltd. Proficient in Java, Spring Boot, React, Angular, MySQL, and MERN technologies, with a focus on efficient architecture, responsive UI/UX, and delivering impactful user experiences.'
     },
     {
       id: 1,
-      image: '/src/assets/photographer.jpg',  
+      image: photographer,  
       title: 'Photographer',
       name: 'Chamith Kavinda',
       description: 'Capturing moments that tell stories . . . \n\nPassionate photographer specializing in portrait, landscape, and event photography. With an eye for detail and a commitment to creativity, I transform ordinary moments into extraordinary memories. Experienced in both digital and film photography, using professional equipment to deliver stunning visuals that resonate with emotion and artistry.'
     },
     {
       id: 2,
-      image: '/src/assets/announcer2.jpg', 
+      image: announcer, 
       title: 'Announcer',
       name: 'Chamith Kavinda',
       description: 'Bringing events to life with words . . . \n\nDynamic and engaging announcer with experience in hosting events, ceremonies, and live programs. Known for clear articulation, stage presence, and the ability to connect with diverse audiences. Skilled at creating memorable experiences through professional commentary and interactive engagement.'
     },
     {
       id: 3,
-      image: '/src/assets/contentCreator.jpg', 
+      image: contentCreator, 
       title: 'Content Creator',
       name: 'Chamith Kavinda',
       description: 'Crafting digital narratives that inspire and inform . . . \n\nCreative content strategist and storyteller dedicated to producing high-quality digital media. Leveraging a unique blend of technical expertise and visual artistry, I create engaging content across social platforms, blogs, and video. From tech tutorials and coding insights to cinematic visual stories, I focus on delivering value-driven content that connects with global audiences and builds meaningful digital communities.'
     },
     {
       id: 4,
-      image: '/src/assets/umpire.jpg',
+      image: umpire,
       title: 'Cricket Umpire',
       name: 'Chamith Kavinda',
       description: 'Maintaining the spirit and integrity of the game . . . \n\nFocused and disciplined cricket official with a deep understanding of the Laws of Cricket. Committed to ensuring fair play, accuracy in decision-making, and effective match management on the field. With sharp concentration and a calm presence, I strive to provide an impartial environment where the passion of the game can thrive.'
