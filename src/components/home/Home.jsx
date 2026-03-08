@@ -3,7 +3,7 @@ import "./home.css";
 import Social from './Social';
 import Data from './Data';
 import { motion } from 'framer-motion';
-import homeImage from "../../assets/homeImage2.jpg";
+import homeImage from "../../assets/homeImage3.jpg";
 import photographer from "../../assets/photographer.jpg";
 import announcer from "../../assets/announcer2.jpg";
 import contentCreator from "../../assets/contentCreator.jpg";
