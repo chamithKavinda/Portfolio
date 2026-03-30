@@ -8,6 +8,7 @@ import Qualification from './components/qualification/Qualification';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import AnimatedCursor from 'react-animated-cursor';
+import ParticlesBackground from "./components/particles/ParticlesBackground";
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
         <>
             <Header/>
             <main className='main'>
+                <ParticlesBackground />
                 <AnimatedCursor/>
                 <Home/>
                 <Qualification/>
