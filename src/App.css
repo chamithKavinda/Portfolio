@@ -148,7 +148,6 @@ img{
     max-width: 968px;
     margin-left: auto;
     margin-right: auto;
-    overflow-x: hidden;
 }
 
 .grid {
@@ -184,7 +183,6 @@ img{
     .container{
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
-        overflow-x: hidden;
     }
 
     .button {
@@ -226,7 +224,6 @@ img{
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
-        overflow-x: hidden;
     }
 }
 
