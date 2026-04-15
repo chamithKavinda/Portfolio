@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This project is built using **React.js** and **standard CSS**. It serves as a showcase for my skills, projects, and achievements. The website provides a detailed overview of my work and experience as a **full-stack developer** and **photographer**.
 
-https://chamithkavinda.me/
+https://chamithkavinda.dev/
 
 ## Features
 
@@ -17,14 +17,33 @@ https://chamithkavinda.me/
 - **CSS**: Used for styling the website and creating responsive designs.
 - **HTML**: For the structure of the website.
 
-![Image](https://github.com/user-attachments/assets/fde66914-e6a6-4844-9bbd-a7b7c1292ff1)
+## Overview Page
+<img width="1470" height="834" alt="Image" src="https://github.com/user-attachments/assets/cefe304b-5583-4803-9eec-c1a9623c44bb" />
 
-![Image](https://github.com/user-attachments/assets/70aaec10-bbfb-445c-9e86-060ffd522d05)
+## My Journey Page
+<img width="1470" height="830" alt="Image" src="https://github.com/user-attachments/assets/e7051ea6-bc57-4134-83ee-01a99087b2ba" />
 
-![Image](https://github.com/user-attachments/assets/f4d0ac2e-fd9b-4ca2-9e98-959121290501)
+## Expertise Page
+<img width="1470" height="833" alt="Image" src="https://github.com/user-attachments/assets/81745e44-5b50-48bc-b519-c1bcd1776262" />
 
-![Image](https://github.com/user-attachments/assets/c889d89d-0144-4463-9cbd-1c877700cdf5)
+## Creations Page
+<img width="1470" height="829" alt="Image" src="https://github.com/user-attachments/assets/1d29f665-90c1-42f8-be11-2663b42f897b" />
 
-![Image](https://github.com/user-attachments/assets/93b40a58-4bc7-49d7-94dd-d2c2eebac18b)
+## Collaborate Page
+<img width="1470" height="834" alt="Image" src="https://github.com/user-attachments/assets/1533ccfe-8300-4b2a-9b30-1dd2f0463321" />
 
-![Image](https://github.com/user-attachments/assets/fc3881c1-114d-479f-9e41-e9055e325904)
+---
+
+## License
+
+This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/chamithKavinda/Portfolio/tree/main?tab=MIT-1-ov-file) file for details.
+
+---
+
+## Contact
+
+For questions or support, please contact:
+
+- **Name**: Chamith Kavinda  
+- **Email**: chamth13kavinda@gmail.com  
+- **GitHub**: [Chamith Kavinda](https://github.com/chamithKavinda)
