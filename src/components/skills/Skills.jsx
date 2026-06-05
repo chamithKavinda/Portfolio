@@ -4,10 +4,10 @@ import './skills.css';
 
 import Frontend from './Frontend';
 import Backend from './Backend';
-import PhotographerSkills from './PhotographerSkills';
-import ContentCreatorSkills from './ContentCreatorSkills';
-import AnnouncerSkills from './AnnouncerSkills';
-import UmpireSkills from './UmpireSkills';
+// import PhotographerSkills from './PhotographerSkills';
+// import ContentCreatorSkills from './ContentCreatorSkills';
+// import AnnouncerSkills from './AnnouncerSkills';
+// import UmpireSkills from './UmpireSkills';
 
 const Skills = () => {
 
@@ -36,25 +36,25 @@ const Skills = () => {
             <Backend />
           </div>
         );
-      case 1:
-        return <PhotographerSkills />;
-      case 2:
-        return <ContentCreatorSkills />;
-      case 3:
-        return <AnnouncerSkills />;
-      case 4:
-        return <UmpireSkills />;
-      default:
-        return null;
+      // case 1:
+      //   return <PhotographerSkills />;
+      // case 2:
+      //   return <ContentCreatorSkills />;
+      // case 3:
+      //   return <AnnouncerSkills />;
+      // case 4:
+      //   return <UmpireSkills />;
+      // default:
+      //   return null;
     }
   };
 
   return (
     <section className="skills section" id="skills">
       <h2 className="section__title">Expertise</h2>
-      <span className="section__subtitle">
+      {/* <span className="section__subtitle">
         {roles[currentRole].title}
-      </span>
+      </span> */}
 
       <div className="roles__carousel">
 
@@ -70,17 +70,17 @@ const Skills = () => {
         </motion.div>
 
         {/* Arrows */}
-        <button className="roles__nav left" onClick={handlePrev}>
+        {/* <button className="roles__nav left" onClick={handlePrev}>
           <i className="uil uil-angle-left"></i>
         </button>
 
         <button className="roles__nav right" onClick={handleNext}>
           <i className="uil uil-angle-right"></i>
-        </button>
+        </button> */}
       </div>
 
       {/* Dots */}
-      <div className="roles__dots">
+      {/* <div className="roles__dots">
         {roles.map((_, i) => (
           <button
             key={i}
@@ -88,7 +88,7 @@ const Skills = () => {
             onClick={() => setCurrentRole(i)}
           />
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };
