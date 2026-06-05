@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import {
   devProjectsData, devProjectsNav,
-  photographerProjectsData, photographerProjectsNav,
-  contentProjectsData, contentProjectsNav,
-  announcerProjectsData, announcerProjectsNav,
-  umpireProjectsData, umpireProjectsNav,
+  // photographerProjectsData, photographerProjectsNav,
+  // contentProjectsData, contentProjectsNav,
+  // announcerProjectsData, announcerProjectsNav,
+  // umpireProjectsData, umpireProjectsNav,
 } from './Data';
 import WorkItems from './WorkItems';
 
@@ -16,34 +16,34 @@ const roles = [
     nav: devProjectsNav,
     defaultCategory: 'web',
   },
-  {
-    id: 1,
-    title: 'As a Photographer',
-    data: photographerProjectsData,
-    nav: photographerProjectsNav,
-    defaultCategory: 'events',
-  },
-  {
-    id: 2,
-    title: 'As a Content Creator',
-    data: contentProjectsData,
-    nav: contentProjectsNav,
-    defaultCategory: 'youtube',
-  },
-  {
-    id: 3,
-    title: 'As an Announcer',
-    data: announcerProjectsData,
-    nav: announcerProjectsNav,
-    defaultCategory: 'sports',
-  },
-  {
-    id: 4,
-    title: 'As a Cricket Umpire',
-    data: umpireProjectsData,
-    nav: umpireProjectsNav,
-    defaultCategory: 'matches',
-  },
+  // {
+  //   id: 1,
+  //   title: 'As a Photographer',
+  //   data: photographerProjectsData,
+  //   nav: photographerProjectsNav,
+  //   defaultCategory: 'events',
+  // },
+  // {
+  //   id: 2,
+  //   title: 'As a Content Creator',
+  //   data: contentProjectsData,
+  //   nav: contentProjectsNav,
+  //   defaultCategory: 'youtube',
+  // },
+  // {
+  //   id: 3,
+  //   title: 'As an Announcer',
+  //   data: announcerProjectsData,
+  //   nav: announcerProjectsNav,
+  //   defaultCategory: 'sports',
+  // },
+  // {
+  //   id: 4,
+  //   title: 'As a Cricket Umpire',
+  //   data: umpireProjectsData,
+  //   nav: umpireProjectsNav,
+  //   defaultCategory: 'matches',
+  // },
 ];
 
 const RoleProjects = ({ role }) => {
@@ -98,26 +98,26 @@ function Works() {
     <div>
       {/* Role subtitle */}
       <p className="work__role-subtitle section__subtitle">
-        {roles[currentRole].title}
+        {/* {roles[currentRole].title} */}
       </p>
 
       {/* Carousel wrapper */}
       <div className="work__carousel">
-        <button className="roles__nav left" onClick={handlePrev}>
+        {/* <button className="roles__nav left" onClick={handlePrev}>
           <i className="uil uil-angle-left"></i>
-        </button>
+        </button> */}
 
         <div className="work__carousel-content">
           <RoleProjects key={currentRole} role={roles[currentRole]} />
         </div>
 
-        <button className="roles__nav right" onClick={handleNext}>
+        {/* <button className="roles__nav right" onClick={handleNext}>
           <i className="uil uil-angle-right"></i>
-        </button>
+        </button> */}
       </div>
 
       {/* Dots */}
-      <div className="roles__dots">
+      {/* <div className="roles__dots">
         {roles.map((_, i) => (
           <button
             key={i}
@@ -125,7 +125,7 @@ function Works() {
             onClick={() => setCurrentRole(i)}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }

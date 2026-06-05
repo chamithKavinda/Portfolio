@@ -44,178 +44,178 @@ const fullStackServices = [
   },
 ];
 
-const photographerServices = [
-  {
-    icon: "uil uil-camera",
-    title: "Portrait Photography",
-    tabIndex: 1,
-    description: "Capturing expressive, high-quality portraits that tell a story.",
-    items: [
-      "Professional portrait sessions.",
-      "Studio & outdoor settings.",
-      "Corporate headshots.",
-      "Family & individual portraits.",
-      "Creative conceptual shoots.",
-    ],
-  },
-  {
-    icon: "uil uil-image",
-    title: "Event Photography",
-    tabIndex: 2,
-    description: "Documenting your special moments with a creative eye and professional quality.",
-    items: [
-      "Corporate events & conferences.",
-      "Sports & action photography.",
-      "Birthday & private events.",
-      "Live performance coverage.",
-    ],
-  },
-  {
-    icon: "uil uil-sliders-v",
-    title: "Photo Editing",
-    tabIndex: 3,
-    description: "Transforming raw images into stunning, polished visuals using industry-leading tools.",
-    items: [
-      "Lightroom color grading.",
-      "Retouching & skin correction.",
-      "Background removal & compositing.",
-      "Cinematic tone edits.",
-      "Batch processing & delivery.",
-    ],
-  },
-];
+// const photographerServices = [
+//   {
+//     icon: "uil uil-camera",
+//     title: "Portrait Photography",
+//     tabIndex: 1,
+//     description: "Capturing expressive, high-quality portraits that tell a story.",
+//     items: [
+//       "Professional portrait sessions.",
+//       "Studio & outdoor settings.",
+//       "Corporate headshots.",
+//       "Family & individual portraits.",
+//       "Creative conceptual shoots.",
+//     ],
+//   },
+//   {
+//     icon: "uil uil-image",
+//     title: "Event Photography",
+//     tabIndex: 2,
+//     description: "Documenting your special moments with a creative eye and professional quality.",
+//     items: [
+//       "Corporate events & conferences.",
+//       "Sports & action photography.",
+//       "Birthday & private events.",
+//       "Live performance coverage.",
+//     ],
+//   },
+//   {
+//     icon: "uil uil-sliders-v",
+//     title: "Photo Editing",
+//     tabIndex: 3,
+//     description: "Transforming raw images into stunning, polished visuals using industry-leading tools.",
+//     items: [
+//       "Lightroom color grading.",
+//       "Retouching & skin correction.",
+//       "Background removal & compositing.",
+//       "Cinematic tone edits.",
+//       "Batch processing & delivery.",
+//     ],
+//   },
+// ];
 
-const contentCreatorServices = [
-  {
-    icon: "uil uil-video",
-    title: "Video Content",
-    tabIndex: 1,
-    description: "Producing engaging video content that captivates your audience across platforms.",
-    items: [
-      "Short-form reels & TikToks.",
-      "Video scripting & storyboarding.",
-      "On-camera presentation.",
-      "Voiceover & narration.",
-    ],
-  },
-  {
-    icon: "uil uil-calendar-alt",
-    title: "Event Organizing",
-    tabIndex: 2,
-    description: "Planning and executing memorable events that engage audiences and deliver seamless experiences.",
-    items: [
-      "Corporate events & conferences.",
-      "Weddings & private celebrations.",
-      "Product launches & brand activations.",
-      "Exhibitions & trade shows.",
-      "End-to-end event planning & coordination.",
-    ],
-  },  
-  {
-    icon: "uil uil-instagram",
-    title: "Social Media",
-    tabIndex: 3,
-    description: "Growing and engaging your social media presence with strategic, high-quality content.",
-    items: [
-      "Content calendar planning.",
-      "Instagram & Facebook management.",
-      "Audience engagement strategies.",
-      "Analytics & performance review.",
-      "Brand consistency across platforms.",
-    ],
-  },
-];
+// const contentCreatorServices = [
+//   {
+//     icon: "uil uil-video",
+//     title: "Video Content",
+//     tabIndex: 1,
+//     description: "Producing engaging video content that captivates your audience across platforms.",
+//     items: [
+//       "Short-form reels & TikToks.",
+//       "Video scripting & storyboarding.",
+//       "On-camera presentation.",
+//       "Voiceover & narration.",
+//     ],
+//   },
+//   {
+//     icon: "uil uil-calendar-alt",
+//     title: "Event Organizing",
+//     tabIndex: 2,
+//     description: "Planning and executing memorable events that engage audiences and deliver seamless experiences.",
+//     items: [
+//       "Corporate events & conferences.",
+//       "Weddings & private celebrations.",
+//       "Product launches & brand activations.",
+//       "Exhibitions & trade shows.",
+//       "End-to-end event planning & coordination.",
+//     ],
+//   },  
+//   {
+//     icon: "uil uil-instagram",
+//     title: "Social Media",
+//     tabIndex: 3,
+//     description: "Growing and engaging your social media presence with strategic, high-quality content.",
+//     items: [
+//       "Content calendar planning.",
+//       "Instagram & Facebook management.",
+//       "Audience engagement strategies.",
+//       "Analytics & performance review.",
+//       "Brand consistency across platforms.",
+//     ],
+//   },
+// ];
 
-const announcerServices = [
-  {
-    icon: "uil uil-microphone",
-    title: "Live Announcing",
-    tabIndex: 1,
-    description: "Delivering energetic and professional live commentary for events of all scales.",
-    items: [
-      "Sports event announcing.",
-      "Corporate event hosting.",
-      "Live ceremony MC.",
-      "Award show presenting.",
-      "Crowd engagement & hype.",
-    ],
-  },
-  {
-    icon: "uil uil-volume",
-    title: "Voiceover Services",
-    tabIndex: 2,
-    description: "Professional voiceover recordings for media, ads, and digital content.",
-    items: [
-      "Commercial & ad voiceovers.",
-      "Documentary narration.",
-      "Podcast intro & outros.",
-      "E-learning & training audio.",
-      "Promo & highlight reels.",
-    ],
-  },
-  {
-    icon: "uil uil-video",
-    title: "Broadcasting",
-    tabIndex: 3,
-    description: "Broadcasting services for radio, online streams, and television productions.",
-    items: [
-      "Radio broadcasting.",
-      "Online stream commentary.",
-      "Match & game day coverage.",
-      "Post-game analysis presenting.",
-      "Live show hosting.",
-    ],
-  },
-];
+// const announcerServices = [
+//   {
+//     icon: "uil uil-microphone",
+//     title: "Live Announcing",
+//     tabIndex: 1,
+//     description: "Delivering energetic and professional live commentary for events of all scales.",
+//     items: [
+//       "Sports event announcing.",
+//       "Corporate event hosting.",
+//       "Live ceremony MC.",
+//       "Award show presenting.",
+//       "Crowd engagement & hype.",
+//     ],
+//   },
+//   {
+//     icon: "uil uil-volume",
+//     title: "Voiceover Services",
+//     tabIndex: 2,
+//     description: "Professional voiceover recordings for media, ads, and digital content.",
+//     items: [
+//       "Commercial & ad voiceovers.",
+//       "Documentary narration.",
+//       "Podcast intro & outros.",
+//       "E-learning & training audio.",
+//       "Promo & highlight reels.",
+//     ],
+//   },
+//   {
+//     icon: "uil uil-video",
+//     title: "Broadcasting",
+//     tabIndex: 3,
+//     description: "Broadcasting services for radio, online streams, and television productions.",
+//     items: [
+//       "Radio broadcasting.",
+//       "Online stream commentary.",
+//       "Match & game day coverage.",
+//       "Post-game analysis presenting.",
+//       "Live show hosting.",
+//     ],
+//   },
+// ];
 
-const umpireServices = [
-  {
-    icon: "uil uil-shield-check",
-    title: "Match Officiating",
-    tabIndex: 1,
-    description: "Providing fair, confident, and professional umpiring for cricket matches at all levels.",
-    items: [
-      "On-field umpiring.",
-      "Decision-making under pressure.",
-      "LBW & dismissal judgments.",
-      "Over & boundary management.",
-      "Player conduct management.",
-    ],
-  },
-  {
-    icon: "uil uil-book-open",
-    title: "Rules & Regulations",
-    tabIndex: 2,
-    description: "Deep knowledge of cricket laws to ensure fair and accurate match officiating.",
-    items: [
-      "ICC & local board regulations.",
-      "No-ball & wide interpretations.",
-      "DRS & review support.",
-      "Law application in edge cases.",
-      "Scorecard & record keeping.",
-    ],
-  },
-  {
-    icon: "uil uil-clipboard-notes",
-    title: "Cricket Match Scorering",
-    tabIndex: 3,
-    description: "Delivering accurate, professional, and technology-driven cricket scoring services to ensure reliable match records and performance analysis.",
-    items: [
-      "Live ball-by-ball scoring & digital scorekeeping.",
-      "Scorecard preparation & match summary reports.",
-      "Statistics tracking & player performance analysis.",
-      "Coordination with umpires & match officials.",
-      "Scoring software training & DLS calculations.",
-    ],
-  },  
-];
+// const umpireServices = [
+//   {
+//     icon: "uil uil-shield-check",
+//     title: "Match Officiating",
+//     tabIndex: 1,
+//     description: "Providing fair, confident, and professional umpiring for cricket matches at all levels.",
+//     items: [
+//       "On-field umpiring.",
+//       "Decision-making under pressure.",
+//       "LBW & dismissal judgments.",
+//       "Over & boundary management.",
+//       "Player conduct management.",
+//     ],
+//   },
+//   {
+//     icon: "uil uil-book-open",
+//     title: "Rules & Regulations",
+//     tabIndex: 2,
+//     description: "Deep knowledge of cricket laws to ensure fair and accurate match officiating.",
+//     items: [
+//       "ICC & local board regulations.",
+//       "No-ball & wide interpretations.",
+//       "DRS & review support.",
+//       "Law application in edge cases.",
+//       "Scorecard & record keeping.",
+//     ],
+//   },
+//   {
+//     icon: "uil uil-clipboard-notes",
+//     title: "Cricket Match Scorering",
+//     tabIndex: 3,
+//     description: "Delivering accurate, professional, and technology-driven cricket scoring services to ensure reliable match records and performance analysis.",
+//     items: [
+//       "Live ball-by-ball scoring & digital scorekeeping.",
+//       "Scorecard preparation & match summary reports.",
+//       "Statistics tracking & player performance analysis.",
+//       "Coordination with umpires & match officials.",
+//       "Scoring software training & DLS calculations.",
+//     ],
+//   },  
+// ];
 
 const roles = [
   { id: 0, title: "As a Full Stack Developer", services: fullStackServices },
-  { id: 1, title: "As a Photographer", services: photographerServices },
-  { id: 2, title: "As a Content Creator", services: contentCreatorServices },
-  { id: 3, title: "As an Announcer", services: announcerServices },
-  { id: 4, title: "As a Cricket Umpire", services: umpireServices },
+  // { id: 1, title: "As a Photographer", services: photographerServices },
+  // { id: 2, title: "As a Content Creator", services: contentCreatorServices },
+  // { id: 3, title: "As an Announcer", services: announcerServices },
+  // { id: 4, title: "As a Cricket Umpire", services: umpireServices },
 ];
 
 // ─── ServiceCards Component ───────────────────────────────────────────────────
@@ -295,7 +295,7 @@ const Services = () => {
       ref={sectionRef}
     >
       <h2 className="section__title">Solutions</h2>
-      <span className="section__subtitle">{roles[currentRole].title}</span>
+      {/* <span className="section__subtitle">{roles[currentRole].title}</span> */}
 
       <div className="roles__carousel">
         <motion.div
@@ -309,16 +309,16 @@ const Services = () => {
           <ServiceCards services={roles[currentRole].services} />
         </motion.div>
 
-        <button className="roles__nav left" onClick={handlePrev}>
+        {/* <button className="roles__nav left" onClick={handlePrev}>
           <i className="uil uil-angle-left"></i>
         </button>
         <button className="roles__nav right" onClick={handleNext}>
           <i className="uil uil-angle-right"></i>
-        </button>
+        </button> */}
       </div>
 
       {/* Dots */}
-      <div className="roles__dots">
+      {/* <div className="roles__dots">
         {roles.map((_, i) => (
           <button
             key={i}
@@ -326,7 +326,7 @@ const Services = () => {
             onClick={() => setCurrentRole(i)}
           />
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };
