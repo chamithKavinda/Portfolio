@@ -1,49 +1,50 @@
-import { useCallback } from "react";
-import Particles from "@tsparticles/react";
+import { useCallback, useEffect, useState } from "react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
 const ParticlesBackground = () => {
+  const [init, setInit] = useState(false);
 
-  const particlesInit = useCallback(async (engine) => {
-    await loadSlim(engine);
+  useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine);
+    }).then(() => {
+      setInit(true);
+    });
   }, []);
+
+  const particlesLoaded = useCallback(async (container) => {}, []);
+
+  if (!init) return null;
 
   return (
     <Particles
       id="tsparticles"
-      init={particlesInit}
+      particlesLoaded={particlesLoaded}
       options={{
         background: {
-          color: "transparent"
+          color: "transparent",
         },
         particles: {
-          number: {
-            value: 80
-          },
-          color: {
-            value: "#ffffff"
-          },
+          number: { value: 80 },
+          color: { value: "#888888" },   
           links: {
             enable: true,
             distance: 150,
-            color: "#ffffff"
+            color: "#888888",
           },
           move: {
             enable: true,
-            speed: 2
+            speed: 2,
           },
-          opacity: {
-            value: 0.5
-          },
-          size: {
-            value: { min: 1, max: 3 }
-          }
-        }
+          opacity: { value: 0.5 },
+          size: { value: { min: 1, max: 3 } },
+        },
       }}
       style={{
         position: "fixed",
         inset: 0,
-        zIndex: -1
+        zIndex: -1,
       }}
     />
   );
